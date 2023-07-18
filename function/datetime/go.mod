@@ -1,4 +1,4 @@
-module github.com/flogocommon/function/datetime
+module github.com/greatworksinternet/flogoextensions/function/datetime
 
 go 1.20
 

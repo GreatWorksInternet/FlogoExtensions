@@ -1,4 +1,4 @@
-module github.com/flogocommon/function/string
+module github.com/greatworksinternet/flogoextensions/function/string
 
 go 1.20
 

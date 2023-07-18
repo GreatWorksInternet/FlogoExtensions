@@ -1,4 +1,4 @@
-module github.com/flogocommon/function/hash
+module github.com/greatworksinternet/flogoextensions/function/hash
 
 go 1.20
 
