@@ -5,6 +5,12 @@
 *.so
 *.dylib
 
+# Node JS
+node_modules
+
+# Contains secrets, do not commit to git!
+.env
+
 # Test binary, built with `go test -c`
 *.test
 
