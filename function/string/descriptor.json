@@ -1,0 +1,31 @@
+{
+    "name": "string",
+    "type": "flogo:function",
+    "version": "0.0.1",
+    "title": "stringFunctions",
+    "description": "stringFunctions",
+    "functions": [
+        {
+            "name": "replaceAllMultiple",
+            "description": "replaceAllMultiple returns a copy of the input string with all replacements performed from a list of old, new string pairs",
+            "example": "string.replaceAllMultiple(\"Frank & Danny\", array.create(\"&\", \"and\", \"Danny\", \"Joe\")) => Frank and Joe",
+            "args": [
+                {
+                    "name": "str",
+                    "type": "string"
+                },
+                {
+                    "name": "replaceList",
+                    "type": "array",
+                    "valueType": "string"
+                }
+            ],
+            "return": {
+                "type": "string"
+            },
+            "display": {
+                "visible": true
+            }
+        }
+    ]
+}

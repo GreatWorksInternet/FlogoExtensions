@@ -1,0 +1,58 @@
+{
+    "name": "pushover",
+    "version": "1.0.0",
+    "author": "Justin Mirfield",
+    "type": "flogo:activity",
+    "title": "Pushover Activity",
+    "description": "Send pushover requests",
+    "settings": [
+       {
+           "name": "appToken",
+           "type": "string",
+           "required": true,
+           "display": {
+               "name": "App Token",
+               "description" : "App token provided by pushover",
+               "appPropertySupport": true,
+               "type": "password"
+           },
+           "value": ""
+           
+       },
+       {
+            "name": "groupToken",
+            "type": "string",
+            "required": true,
+            "display": {
+                "name": "Group Token",
+                "description" : "Group token provided by pushover",
+                "appPropertySupport": true,
+                "type": "password"
+            },
+            "value": ""
+        },
+        {
+            "name": "active",
+            "type": "boolean",
+            "required": true,
+            "display": {
+                "name": "Active",
+                "description" : "Request will not be sent if set to false",
+                "appPropertySupport": true
+            }
+        }
+    ],
+    "inputs": [
+        {
+            "name": "message",
+            "type": "string",
+            "required": true
+        }
+    ],
+    "outputs": [
+        {
+            "name": "status",
+            "type": "number"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "name": "hash",
+    "type": "flogo:function",
+    "version": "0.0.1",
+    "title": "hashFunctions",
+    "description": "hashing functions",
+    "functions": [{
+            "name": "b64Sha256",
+            "description": "Returnes the sha256 hash of the input.",
+            "example": "hash.b64Sha256('Hash Me!')=>tSAzrwde08u9wRR0qtybmYcJj6gXQoYs0T1+Zhi64O8=",
+            "args": [{
+                "name": "body",
+                "type": "string"
+            }],
+            "return": {
+                "type": "string"
+            },
+            "display": {
+                "visible": true
+            }
+        },
+        {
+            "name": "hmacB64Sha256",
+            "description": "Returnes the hmac sha256 hash of the input and the given key.",
+            "example": "hash.hmacB64Sha256('Hash Me!', '123456789')=>RooaCCrajfyqQowrI9HyaM7AxXssAxsL77G6HyLFAOs=",
+            "args": [{
+                "name": "body",
+                "type": "string"
+            },
+              {
+                "name": "key",
+                "type": "string"
+              }],
+            "return": {
+                "type": "string"
+            },
+            "display": {
+                "visible": true
+            }
+        }
+    ]
+}
