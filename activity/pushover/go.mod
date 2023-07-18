@@ -1,4 +1,4 @@
-module github.com/flogocommon/activity/pushover
+module github.com/greatworksinternet/flogoextensions/activity/pushover
 
 go 1.20
 
