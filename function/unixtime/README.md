@@ -1,5 +1,5 @@
-# Datetime Functions
-This function package exposes common datetime functions.
+# Unixtime Function
+This package contains a function to convert datetime to a unix timestamp
 
 ## formatUnixTime()
 Converts datetime to unix timestamp.

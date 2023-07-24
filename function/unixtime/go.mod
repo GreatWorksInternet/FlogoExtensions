@@ -1,4 +1,4 @@
-module github.com/greatworksinternet/flogoextensions/function/datetime
+module github.com/greatworksinternet/flogoextensions/function/unixtime
 
 go 1.20
 
