@@ -1,5 +1,5 @@
 {
-    "name": "datetime",
+    "name": "unixtime",
     "type": "flogo:function",
     "version": "0.0.1",
     "title": "datetimeFunctions",
@@ -8,7 +8,7 @@
         {
             "name": "formatUnixTime",
             "description": "Formats datetime object to unix time in seconds",
-            "example": "datetime.formatUnixTime(2022-06-19T19:18:06.970469762Z)=>1655666806",
+            "example": "unixtime.formatUnixTime(2022-06-19T19:18:06.970469762Z)=>1655666806",
             "args": [
                 {
                     "name": "datetime",
