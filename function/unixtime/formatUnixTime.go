@@ -1,14 +1,14 @@
-package datetime
+package unixtime
 
 import (
+	"strconv"
+
 	"github.com/project-flogo/core/data"
 	"github.com/project-flogo/core/data/coerce"
 	"github.com/project-flogo/core/data/expression/function"
-	"strconv"
 )
 
 type FormatUnixTime struct {
-
 }
 
 func init() {

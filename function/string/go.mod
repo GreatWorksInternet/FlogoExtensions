@@ -3,8 +3,8 @@ module github.com/greatworksinternet/flogoextensions/function/string
 go 1.20
 
 require (
-	github.com/project-flogo/core v1.6.1
-	github.com/stretchr/testify v1.4.0
+	github.com/project-flogo/core v1.6.4
+	github.com/stretchr/testify v1.8.1
 )
 
 replace gopkg.in/yaml.v2 => gopkg.in/yaml.v2 v2.4.0
@@ -17,4 +17,5 @@ require (
 	go.uber.org/multierr v1.5.0 // indirect
 	go.uber.org/zap v1.16.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )

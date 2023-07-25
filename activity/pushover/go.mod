@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/joho/godotenv v1.4.0
-	github.com/project-flogo/core v1.6.2
+	github.com/project-flogo/core v1.6.4
 	github.com/stretchr/testify v1.8.1
 )
 
