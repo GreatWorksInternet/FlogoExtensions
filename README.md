@@ -30,3 +30,9 @@ In the go.work file, add a line similar to:
 ```
 replace example.com/bad/thing v1.4.5 => example.com/good/thing v1.4.5
 ```
+Then run:
+
+```
+go work sync
+```
+To sync dependencies among all the workspace modules.
