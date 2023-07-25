@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "go": "^3.0.1"
+    "ejs": "^3.1.7",
+    "glob-parent": "^6.0.2",
+    "minimist": "^1.2.6"
   }
 }
