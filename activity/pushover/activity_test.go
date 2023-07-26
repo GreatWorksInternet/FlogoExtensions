@@ -133,7 +133,7 @@ func TestInactivePushover(t *testing.T) {
 	assert.Nil(t, err)
 
 	ctx := newActivityContext(map[string]interface{}{
-		"message": "Hello world",
+		"message": "This is a test",
 	})
 	_, err = act.Eval(ctx)
 	assert.Nil(t, err)
@@ -149,7 +149,7 @@ func TestActivePushover(t *testing.T) {
 	assert.Nil(t, err)
 
 	ctx := newActivityContext(map[string]interface{}{
-		"message": "Hello world",
+		"message": "This is a test",
 	})
 	_, err = act.Eval(ctx)
 	assert.Nil(t, err)
