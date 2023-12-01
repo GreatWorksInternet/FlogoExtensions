@@ -5,7 +5,19 @@
 
 version: 2
 updates:
-  - package-ecosystem: "gomod" # See documentation for possible values
-    directory: "/activity/pushover,/function/unixtime,/function/hash,/function/string" # Location of package manifests
+  - package-ecosystem: "gomod" 
+    directory: "/activity/pushover"
     schedule:
       interval: "weekly"
+  - package-ecosystem: "gomod"
+    directory: "/function/unixtime"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "gomod"
+    directory: "/function/hash"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "gomod"
+    directory: "function/string"
+    schedule:
+      interval: "weekly"      
