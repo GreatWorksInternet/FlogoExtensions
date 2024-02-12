@@ -3,7 +3,7 @@ module github.com/greatworksinternet/flogoextensions/function/string
 go 1.20
 
 require (
-	github.com/project-flogo/core v1.6.7
+	github.com/project-flogo/core v1.6.8
 	github.com/stretchr/testify v1.8.4
 )
 
