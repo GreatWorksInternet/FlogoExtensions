@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/project-flogo/core v1.6.7
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.9.0
 )
 
 replace gopkg.in/yaml.v2 => gopkg.in/yaml.v2 v2.4.0
